@@ -1,0 +1,15 @@
+{
+  "name": "TS & Kotlin Study (Ubuntu 24.04)",
+  "build": { "dockerfile": "Dockerfile" },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "mathiasfrohlich.Kotlin",
+        "vscjava.vscode-java-pack",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  },
+  "remoteUser": "root",
+  "workspaceFolder": "/workspace"
+}
